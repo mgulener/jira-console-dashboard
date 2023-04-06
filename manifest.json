@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Board Console",
+  "version": "1.0",
+  "description": "Show story points group by assignee",
+  "content_scripts": [
+    {
+      "js": ["issues.js"],
+      "matches": [
+        "https://omniplatform.atlassian.net/*"
+      ]
+    }
+  ]
+}
